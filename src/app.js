@@ -16,7 +16,9 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/api', routes);
-
+app.get('/', (req, res) => {
+  res.send('Welcome to the Auth OTP Service API');
+});
 // Error handling
 app.use(errorHandler);
 

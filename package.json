@@ -8,11 +8,17 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["auth", "otp", "nodejs", "express"],
+  "keywords": [
+    "auth",
+    "otp",
+    "nodejs",
+    "express"
+  ],
   "author": "Nitish Kumar Singh",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@vendia/serverless-express": "^4.12.6",
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",

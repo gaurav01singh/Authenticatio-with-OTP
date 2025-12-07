@@ -16,6 +16,6 @@ class OTPRepository {
   static async update(id, updateData) {
     return await OTP.findByIdAndUpdate(id, updateData, { new: true });
   }
-}
+} 
 
 module.exports = OTPRepository;
